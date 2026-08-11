@@ -1,0 +1,38 @@
+# Aman Hanspal
+
+> Official portfolio of Aman Hanspal, an AI/ML Engineer based in Mumbai, India, building generative AI systems across image, video, audio, and language.
+
+Aman Hanspal works on multimodal AI, retrieval-augmented generation, computer vision, speech systems, diffusion models, document intelligence, and production-oriented AI engineering. He was a Generative AI Researcher at Aeos Labs from May 2024 to January 2026.
+
+## Primary Resources
+
+- [Portfolio](https://amanhanspal.com/): Experience, projects, skills, education, recognition, and contact information.
+- [Resume](https://drive.google.com/file/d/1gbexqkeLpnsJU6dc9_Y0qOPreeYYC72Q/view): Professional resume.
+
+## Selected Projects
+
+- [Clip-It](https://github.com/aman-hanspal/Clip-IT): Local-first multimodal video search using OpenCLIP, Whisper, LanceDB, FastAPI, React, and Electron.
+- [VisionQuery](https://github.com/aman-hanspal/VisionQuery): Natural-language video search using YOLO-World open-vocabulary detection.
+- [SIGGRAPH 2025 RAG Search](https://github.com/aman-hanspal/siggraph-rag-aim): Hybrid retrieval and cited LLM answers over SIGGRAPH papers.
+- [RAG ChatBot for Tata Motors](https://github.com/aman-hanspal/tata-advanced-rag): Enterprise retrieval-augmented generation with hybrid retrieval, reranking, and RAGAS evaluation.
+- [Speech-to-Speech](https://github.com/aman-hanspal/speech-to-speech): English-to-Indian-regional-language speech research and implementation.
+- [ReVision AI](https://github.com/aman-hanspal/ReVision-AI): Agentic study companion that turns lecture videos into grounded study materials.
+- [Note-It](https://github.com/aman-hanspal/Note-It): Desktop learning agent that creates structured Notion notes from educational videos.
+- [Pinterest Scraper](https://github.com/aman-hanspal/pinterest-scraper): Open-source Python package for searching and downloading Pinterest images.
+
+## Writing and Research
+
+- [A Guide to Speaker Diarization](https://medium.com/@amanhanspal05/guide-to-speaker-diarization-86e000ad1837): Practical introduction to identifying who spoke when.
+- [Medium](https://medium.com/@amanhanspal05): Published writing.
+- [Research Papers](https://github.com/aman-hanspal/research-papers): Paper notes, breakdowns, and implementations.
+
+## Profiles
+
+- [GitHub](https://github.com/aman-hanspal)
+- [LinkedIn](https://www.linkedin.com/in/hanspaa2017108/)
+- [CivitAI](https://civitai.com/user/hanspaa2017108)
+- [X](https://x.com/han__ama)
+
+## Contact
+
+- Email: amanhanspal05@yahoo.com
