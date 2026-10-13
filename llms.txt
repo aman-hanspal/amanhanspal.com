@@ -7,7 +7,7 @@ Aman Hanspal works on multimodal AI, retrieval-augmented generation, computer vi
 ## Primary Resources
 
 - [Portfolio](https://amanhanspal.com/): Experience, projects, skills, education, recognition, and contact information.
-- [Resume](https://drive.google.com/file/d/1gbexqkeLpnsJU6dc9_Y0qOPreeYYC72Q/view): Professional resume.
+- [Resume](https://drive.google.com/file/d/180uaPsRneDR3abARYuNADxT6iuVTlDeC/view?usp=drive_link): Professional resume.
 
 ## Selected Projects
 
