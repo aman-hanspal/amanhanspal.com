@@ -339,6 +339,7 @@
           <a href="https://medium.com/@amanhanspal05" target="_blank" rel="noopener">Medium</a>
           <a href="https://x.com/han__ama" target="_blank" rel="noopener">X</a>
           <a href="https://civitai.com/user/hanspaa2017108" target="_blank" rel="noopener">CivitAI</a>
+          <a href="https://github.com/aman-hanspal/visionquery-research-paper" target="_blank" rel="noopener">Research</a>
           <a href="https://drive.google.com/file/d/180uaPsRneDR3abARYuNADxT6iuVTlDeC/view?usp=drive_link" target="_blank" rel="noopener">Resume</a>
         </div>
       </div>
@@ -741,6 +742,7 @@
     x:"https://x.com/han__ama",
     twitter:"https://x.com/han__ama",
     civitai:"https://civitai.com/user/hanspaa2017108",
+    research:"https://github.com/aman-hanspal/visionquery-research-paper",
     resume:"https://drive.google.com/file/d/180uaPsRneDR3abARYuNADxT6iuVTlDeC/view?usp=drive_link"
   };
 
@@ -760,7 +762,7 @@
   }
 
   var commands={
-    help:function(){return 'available commands:\n  <span class="k">whoami</span>     short bio\n  <span class="k">ls</span>         list projects\n  <span class="k">experience</span> current role\n  <span class="k">skills</span>     tech stack\n  <span class="k">contact</span>    reach me\n  <span class="k">open</span> [x]   open github|linkedin|medium|x|civitai|resume\n  <span class="k">goto</span> [x]   jump to work|projects|hackathons|skills|writing|contact\n  <span class="k">clear</span>      clear the screen';},
+    help:function(){return 'available commands:\n  <span class="k">whoami</span>     short bio\n  <span class="k">ls</span>         list projects\n  <span class="k">experience</span> current role\n  <span class="k">skills</span>     tech stack\n  <span class="k">contact</span>    reach me\n  <span class="k">open</span> [x]   open github|linkedin|medium|x|civitai|research|resume\n  <span class="k">goto</span> [x]   jump to work|research|projects|hackathons|skills|writing|contact\n  <span class="k">clear</span>      clear the screen';},
     whoami:function(){return 'Aman Hanspal — AI/ML Engineer.\nGenerative systems across image, video, audio & language.\nEx-Generative AI Researcher @ <span class="am">Aeos Labs</span>, Bengaluru.\nType <span class="k">ls</span> to see what I\'ve built.';},
     experience:function(){return '<span class="am">Aeos Labs</span> · Bengaluru · May 2024 – Jan 2026\nGenerative AI Researcher\n  › multimodal pipelines: image, video, speech, automation\n  › PoCs across RAG, speech synthesis, document intelligence\n  › business requirements → deployable production systems';},
     skills:function(){return '<span class="k">languages</span>  python · javascript · typescript · sql · html · css\n<span class="k">backend</span>    fastapi · rest apis · celery · redis\n<span class="k">ai/ml/cv</span>   langchain · langgraph · llamaindex · flux · sdxl · diffsinger · comfyui · lora · yolo-world · ocr\n<span class="k">frontend</span>   react · next.js · vite · electron\n<span class="k">cloud</span>      aws · replicate · modal · docker · git · vercel';},
@@ -773,12 +775,12 @@
   function open(arg){
     var k=(arg||"").toLowerCase();
     if(links[k]){out('opening <span class="k">'+k+'</span> ↗');window.open(links[k],"_blank","noopener");}
-    else out('<span class="am">open:</span> unknown target "'+esc(arg||"")+'". try: github, linkedin, medium, x, civitai, resume');
+    else out('<span class="am">open:</span> unknown target "'+esc(arg||"")+'". try: github, linkedin, medium, x, civitai, research, resume');
   }
   function goto(arg){
     var k=(arg||"").toLowerCase(), el=document.getElementById(k);
     if(el){out('jumping to <span class="k">#'+k+'</span>');el.scrollIntoView({behavior:reduce?"auto":"smooth"});}
-    else out('<span class="am">goto:</span> no section "'+esc(arg||"")+'". try: work, projects, hackathons, skills, writing, contact');
+    else out('<span class="am">goto:</span> no section "'+esc(arg||"")+'". try: work, research, projects, hackathons, skills, writing, contact');
   }
 
   function run(raw){
